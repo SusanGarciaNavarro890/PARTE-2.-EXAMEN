@@ -1,0 +1,56 @@
+<html>
+<head>
+<title> EXAMEN FINAL ULTIMO BIMESTRE ;(</title>
+<link rel="stylesheet" type="text/css" href="SECCIÓN 1.css">
+<script>
+function comprobarClave(){
+	Clave1 = document.f1.Clave1.value
+    Clave2 = document.f1.Clave2.value
+
+
+	if (Clave1 == "Rosa" && Clave2 == "Garcia"){
+	   alert("LOS DATOS REQUERIDOS COINCIDEN...\n BIENVENIDO A NUESTRA PAGINA");
+	    var href = "ULTIMO TRABAJO.html";
+		window.location=href;
+		
+		 }
+
+	else{
+	   alert("LOS DATOS INGRESADOS SON INCORRECTOS...\n Verifique Nuevamente");
+		var href = "SECCIÓN 1.html";
+		window.location=href;
+	};
+			
+}
+
+</script>
+</head>
+<body>	
+</a>
+<br>
+<center> <h1> ¡HAZ VALIDEZ DE TUS DATOS PARA CONSULTAR NUESTRA PAGINA WEB!</h1> </center>
+<br><br>
+<div class="circulo">
+<form action="" name="f1">
+<br>
+<br>
+<br>
+<br>
+<center><h2> INGRESA AQUI LOS DATOS <br><br>CONTRASEÑA: </h2><input type="PASSWORD"  name="Clave1" size="20">
+<br>
+<h3>REPITE CONTRASEÑA:</h3><input type="PASSWORD" name="Clave2" size="20">
+<br>
+<br>
+<input type="BUTTON" value="INGRESAR" onclick="comprobarClave()">
+</center>
+</div>
+<center><p> 
+<br>
+<br>
+<br>
+<br>
+<br> Debes de escribe la contraseña dos veces que se te<br> solicitan a continuación, una en cada campo,<br> y da clic en ingresar. Javascript te dirá si las dos<br> contraseñas son correctas y te dara la BIENVENIDA <br>de lo contrario te rechazara el ingreso.</p>
+</center>
+</form> 
+</body>
+</html>	

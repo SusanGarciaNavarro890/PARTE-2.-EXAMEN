@@ -1,0 +1,61 @@
+body {
+background-image: url(m.jpg);
+
+}
+
+.circulo {
+	width: 450px;
+	height: 450px;
+	border-radius: 150%;
+	float: right;
+	margin-right: 100px;
+	background: linear-gradient(to left, black, orange,yellow);
+}
+
+
+input {
+	font-family: fantasy;
+	font-size: 15px;
+	color: blue;
+}
+
+
+p {
+font-family: fantasy;
+font-size: 20px;
+color: black;
+float: right;
+}
+
+
+h1{ 
+color:white;
+text-align: center;
+font-family: fantasy;
+font-size: 40px;
+-webkit-text-fill-color:purple;
+-webkit-text-stroke-color:#00ced1;
+-webkit-text-stroke:3px;
+font-weight: bold;
+font-style: italic;
+background-color:black;
+opacity: .6;
+  }
+
+
+ h3{
+font-family: fantasy;
+-webkit-text-fill-color:red;
+-webkit-text-stroke-color:red;
+-webkit-text-stroke:3px;
+font-size: 25px;
+  }
+
+
+  h2{
+  	font-family: fantasy;
+  	-webkit-text-fill-color:red;
+-webkit-text-stroke-color:red;
+-webkit-text-stroke:3px;
+font-size: 25px;
+  }
