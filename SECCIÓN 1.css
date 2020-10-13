@@ -59,3 +59,9 @@ font-size: 25px;
 -webkit-text-stroke:3px;
 font-size: 25px;
   }
+
+  header {
+  	font-family: fantasy;
+  	font-size: 20px;
+  	color: black
+  }
